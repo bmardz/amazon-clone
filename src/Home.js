@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Product from "./Product.js";
+import Product from "./Product";
 
 function Home() {
   return (
@@ -13,8 +13,10 @@ function Home() {
           alt="amazon"
         />
         {/* Product rows */}
-        <div className="home__row"></div>
-        <Product />
+        <div className="home__row">
+          <Product />
+          <Product />
+        </div>
         <div className="home__row"></div>
 
         <div className="home__row"></div>
