@@ -18,7 +18,7 @@ function Home() {
         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup"
+            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
             price={29.99}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg"
             rating={5}
@@ -39,12 +39,30 @@ function Home() {
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/81Zt42ioCgL._AC_SL1500_.jpg"
           />
-          <Product />
-          <Product />
+          <Product
+            id="23445930"
+            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+            price={79.0}
+            rating={3}
+            image="https://images-na.ssl-images-amazon.com/images/I/61Vn6E887GL._AC_SL1000_.jpg"
+          />
+          <Product
+            id="3254354345"
+            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+            price={1649.0}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L.AC_SX385_.jpg"
+          />
         </div>
 
         <div className="home__row">
-          <Product />
+          <Product
+            id="3254354345"
+            title="Nintendo Switch Console [Grey]"
+            price={449}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51IfDSNqqXL._AC_SL1200_.jpg"
+          />
         </div>
       </div>
     </div>
