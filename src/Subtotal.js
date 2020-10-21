@@ -9,7 +9,8 @@ function Subtotal() {
         renderText={(value) => (
           <>
             <p>
-              Subtotal (0 items): <strong>{` ${value}`}</strong>
+              {/* Look into working on */}
+              Subtotal (0 items): <strong>0</strong>
             </p>
             <small className="subtotal__gift">
               <input type="checkbox" /> This order contains a gift
@@ -17,8 +18,8 @@ function Subtotal() {
           </>
         )}
         decimalScale={2}
-        value={0}
-        displatType={"text"}
+        value={0} // look at how to implement
+        displayType={"text"}
         thousandSeparator={true}
         prefix={"$"}
       />
